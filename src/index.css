@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Poppins:wght@500;600;700&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Inter", ui-sans-serif, system-ui, sans-serif;
+  --font-display: "Poppins", ui-sans-serif, system-ui, sans-serif;
+}
+
+body {
+  @apply bg-[#05060B] text-white;
+  overflow-x: hidden;
+}
+
+/* Neon glow utility */
+.neon-glow-blue {
+  box-shadow: 0 0 20px rgba(59, 130, 246, 0.5);
+}
+.neon-glow-purple {
+  box-shadow: 0 0 20px rgba(168, 85, 247, 0.5);
+}
+.neon-text-blue {
+  text-shadow: 0 0 10px rgba(59, 130, 246, 0.8);
+}
+.neon-text-purple {
+  text-shadow: 0 0 10px rgba(168, 85, 247, 0.8);
+}
